@@ -58,7 +58,7 @@
 <ol start="10">
   <li>Faça o quadro de pixels ter seu tamanho definido pela pessoa usuária.
     <ul>
-      <li>Crie um input e um botão que permitam definir um quadro de pixels com tamanho entre 5 e 50. Ao clicar no botão, deve ser gerado um quadro de <strong>N</strong> pixels de largura e <strong>N</strong> pixels de altura, onde <strong>N</strong> é o número inserido no input;</li>
+      <li>Crie um input e um botão que permitam definir um quadro de pixels com tamanho entre 5 e 50. Ao clicar no botão, deve ser gerado um quadro de <strong>N</strong> pixels de largura e <strong>N</strong> pixels de altura, em que <strong>N</strong> é o número inserido no input;</li>
       <li>Ou seja, se o valor passado para o input for 7, ao clicar no botão, vai ser gerado um quadro de 49 pixels (7 pixels de largura x 7 pixels de altura);</li>
       <li>O input deve ter o <code>id</code> denominado <code>board-size</code> e o botão deve ter o <code>id</code> denominado <code>generate-board</code>;</li>
       <li>O input só deve aceitar números maiores que zero. Essa restrição deve ser feita usando os atributos do elemento <code>input</code>;</li>
@@ -139,5 +139,31 @@
 
 ### Bonus
 <ol start="10">
-
+  <li>The size of the board should be defined by the user.
+    <ul>
+      <li>Add a input element to your page that allows the user to define the size of the board from 5 to 50. On clicking in the button, it should be generated a bord with <strong>N</strong> pixels fo width. and <strong>N</strong> pixels of height. <strong>N</strong> is the inputted number;</li>
+      <li>That means, if the inputted value is 7, on clicking the button, it should be generated a bord with 49 pixels (7 pixels of width largura x 7 pixels of height);</li>
+      <li>The input element should have the <code>id</code> <code>board-size</code> and the button should have the <code>id</code> <code>generate-board</code>;</li>
+      <li>The input element should only accept numbers higher than zero. Use the attributes of the <code>input</code> element for this restriction;</li>
+      <li>The button should have the text "VQV";</li>
+      <li>The input element should be positioned between the color palette and the pixels board;</li>
+      <li>The button should be positioned on the side of the input element;</li>
+      <li>If no value is inserted on the input element when the button is clicked, display an <code>alert</code> message: "Board inválido!" (<em>"Invalid Board!"</em>);</li>
+      <li>The new board should have all "pixels" filled with the white color.</li>
+    </ul>
+  </li>
+  <li>Restrict the min and max size of the board.
+    <ul>
+      <li>If the value of the input <code>board-size</code> it out of the rang 5 to 50:</li>
+        <ul>
+          <li>Consider 5 as the default value if the inputted number is lower than 5;</li>
+          <li>Consider 50 as the default value if the inputted number is higher than 50.</li>
+        </ul>
+    </ul>
+  </li>
+  <li>The colors of the palette should be generated randomly on loading the page.
+    <ul>
+      <li>The black color still need to be present and to be the first color of the palette</li>
+    </ul>
+  </li>
 </ol>
