@@ -61,7 +61,7 @@
       <li>Crie um input e um botão que permitam definir um quadro de pixels com tamanho entre 5 e 50. Ao clicar no botão, deve ser gerado um quadro de <strong>N</strong> pixels de largura e <strong>N</strong> pixels de altura, onde <strong>N</strong> é o número inserido no input;</li>
       <li>Ou seja, se o valor passado para o input for 7, ao clicar no botão, vai ser gerado um quadro de 49 pixels (7 pixels de largura x 7 pixels de altura);</li>
       <li>O input deve ter o <code>id</code> denominado <code>board-size</code> e o botão deve ter o <code>id</code> denominado <code>generate-board</code>;</li>
-      <li>O input só deve aceitar número maiores que zero. Essa restrição deve ser feita usando os atributos do elemento <code>input</code>;</li>
+      <li>O input só deve aceitar números maiores que zero. Essa restrição deve ser feita usando os atributos do elemento <code>input</code>;</li>
       <li>O botão deve conter o texto "VQV";</li>
       <li>O input deve estar posicionado entre a paleta de cores e o quadro de pixels;</li>
       <li>O botão deve estar posicionado ao lado do input;</li>
