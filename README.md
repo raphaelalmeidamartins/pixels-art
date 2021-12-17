@@ -2,117 +2,103 @@
 
 ![Prévia da página - Preview of the page](./preview.gif)
 
-# Lessons Learned
+# Pixels Art
 <h2>:brazil: Português</h2>
-<p id="pt">Projeto de HTML & CSS desenvolvido por mim (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) ao final do Bloco 3 do Módulo 1 do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. Obtive aprovação com 100% dos requisitos obrigatórios e opcionais atingidos, e seguindo as todas as regras de padronização do código e boas práticas do Linter.</p>
-<p>O projeto consistiu no desenvolvimento de uma página web estática utilizando os conhecimentos obtidos nos três primeiros blocos do curso. A página precisava conter uma lista das lições aprendidas durante esse período, uma lista contendo futuros conteúdos e um pequeno artigo descrevendo minha experiência.</p>
-<p><a href="https://raphaelalmeidamartins.github.io/project-lessons-learned/" target="_blank">Clique aqui</a> para conferir o resultado do projeto no navegador.</p>
+<p id="pt">Projeto de HTML, CSS e JavaScript desenvolvido por mim (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) ao final do Bloco 5 do Módulo 1 do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. Obtive aprovação com 100% dos requisitos obrigatórios e opcionais atingidos, e seguindo as todas as regras de padronização do código e boas práticas do Linter.</p>
+<p>O projeto consistiu no desenvolvimento de uma página web dinâmica e interativa em que o usuário pode pintar os pixels em um quadro utilizando uma paleta de cores gerada de forma aleatória, e também alterar o tamanho do quadro.</p>
+<p><a href="https://raphaelalmeidamartins.github.io/project-pixels-art/" target="_blank">Clique aqui</a> para conferir o resultado do projeto no navegador.</p>
 
 ![Minha nota no projeto - My grade of the project](./nota.png)
 
 ### Requisitos
 <ol>
-  <li>Adicione uma cor de fundo específica para a página
-  <p>Possuir cor de fundo: rgb(253, 251, 251)</p>
+  <li>Adicione à página o título "Paleta de Cores".
+    <ul>
+      <li>O título deverá ficar dentro de uma tag <code>h1</code> com o <code>id</code> denominado <code>title</code>;</li>
+      <li>O texto do título deve ser <strong>exatamente</strong> "Paleta de Cores".</li>
+    </ul>
   </li>
-  <li>Adicione uma barra superior com um título
-  <p>A barra deve possuir o ID "cabecalho" e deve ser fixa no topo da página com a propriedade top tendo 0. O título deve estar dentro da barra e ser um elemento h1 com ID "titulo".</p>
+  <li>Adicione à página uma paleta contendo quatro cores distintas.
+    <ul>
+      <li>A paleta de cores deve ser um elemento com <code>id</code> denominado <code>color-palette</code>, ao passo que cada cor individual contida na paleta de cores deve possuir a <code>classe</code> <code>color</code>;</li>
+      <li>A cor de fundo de cada elemento da paleta deverá ser a cor que o elemento representa. <strong>A única cor não permitida na paleta é a cor branca.;</strong></li>
+      <li>Cada elemento da paleta de cores deverá ter uma borda preta, sólida e com 1 pixel de largura;</li>
+      <li>A paleta de cores deverá listar todas as cores disponíveis para utilização lado a lado, e deverá ser posicionada abaixo do título "Paleta de Cores";</li>
+      <li>A paleta de cores não deve conter cores repetidas.</li>
+    </ul>
   </li>
-  <li>Adicione uma foto sua à página
-  <p>A foto deve ser inserida utilizando uma tag img com o ID "minha_foto".</p>
+  <li>Adicione a cor preta como a primeira cor da paleta de cores.</li>
+  <li>Adicione à página um quadro de pixels, com 25 pixels.
+    <ul>
+      <li>O quadro de "pixels" deve ter 5 elementos de largura e 5 elementos de comprimento;</li>
+      <li>O quadro de "pixels" deve possuir o <code>id</code> denominado <code>pixel-board</code>, ao passo que cada "pixel" individual dentro do quadro deve possuir a <code>classe</code> denominada <code>pixel</code>;</li>
+      <li>A cor inicial dos "pixels" dentro do quadro, ao abrir a página, deve ser branca;</li>
+      <li>O quadro de "pixels" deve aparecer abaixo da paleta de cores.</li>
+    </ul>
   </li>
-  <li>Adicione uma lista de lições aprendidas à página
-  <p>A lista deve possuir 10 itens, ser numerada e possuir o ID "licoes_aprendidas".</p>
+  <li>Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel.</li>
+  <li>Defina a cor preta como cor inicial. Ao carregar a página, a cor preta já deve estar selecionada para pintar os pixels
+    <ul>
+      <li>O elemento da cor preta deve possuir, inicialmente, a <code>classe</code> <code>selected</code>;</li>
+      <li>Note que o elemento que deverá receber a classe <code>selected</code> deve ser um dos elementos que possuem a classe <code>color</code>, como especificado no <strong>requisito 2</strong>.</li>
+    </ul>
   </li>
-  <li>Crie uma lista de lições que ainda deseja aprender para a página
-  <p>A lista deve possuir 10 itens, não ser numerada e possuir o ID "licoes_a_aprender".</p>
+  <li>Clicar em uma das cores da paleta faz com que ela seja selecionada e utilizada para preencher os pixels no quadro.
+    <ul>
+      <li>A <code>classe</code> <code>selected</code> deve ser adicionada à cor selecionada na paleta, ao mesmo tempo em que é removida da cor anteriormente selecionada;</li>
+      <li>Somente uma das cores da paleta deve ter a <code>classe</code> <code>selected</code> de cada vez;</li>
+      <li>Note que os elementos que deverão receber a classe <code>selected</code> devem ser os mesmos elementos que possuem a classe <code>color</code>, como especificado no requisito 2.</li>
+    </ul>
   </li>
-  <li>Adicione um rodapé para a página
-  <p>O rodapé deve utilizar a tag footer e possuir o ID "rodape".</p>
-  </li>
-  <li>Insira pelo menos um link externo na página
-  <p>A configuração desse link deve ser feita para abrir em uma nova aba do navegador</p>
-  </li>
-  <li>Crie um artigo sobre seu aprendizado
-  <p>O artigo deverá possuir mais de 300 caracteres e menos de 600, além disto deve possuir a tag article.</p>
-  </li>
-  <li>Crie uma seção que conta uma passagem sobre seu aprendizado
-  <p>A seção deverá possuir mais de 100 caracteres e menos de 300, além disto deve possuir a tag aside.</p>
-  </li>
-  <li>Aplique elementos HTML de acordo com o sentido e propósito de cada um deles
-  <p>Para tornar o seu site mais acessível e melhorar seu ranqueamento em mecanismos de busca na Web, sua página deve conter os seguintes elementos: article, header, nav, section, aside e footer.</p>
-  </li>
-  <li>Teste a semântica da sua página está aprovada pelo site CodeSniffer
-  </li>
+  <li>Clicar em um pixel dentro do quadro após selecionar uma cor na paleta faz com que o pixel seja preenchido com a cor selecionada.</li>
+  <li>Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco.</li>
 </ol>
 
 ### Bônus
-<ol start="12">
-  <li>Adicione uma tabela à página</li>
-  <li>Utilize o Box model
-  <p>Altere margin, padding e border dos elementos para ver, na prática, como esses atributos influenciam e melhoram a visualização dos componentes.</p>
+<ol start="10">
+  <li>Faça o quadro de pixels ter seu tamanho definido pela pessoa usuária.
+    <ul>
+      <li>Crie um input e um botão que permitam definir um quadro de pixels com tamanho entre 5 e 50. Ao clicar no botão, deve ser gerado um quadro de <strong>N</strong> pixels de largura e <strong>N</strong> pixels de altura, onde <strong>N</strong> é o número inserido no input;</li>
+      <li>Ou seja, se o valor passado para o input for 7, ao clicar no botão, vai ser gerado um quadro de 49 pixels (7 pixels de largura x 7 pixels de altura);</li>
+      <li>O input deve ter o <code>id</code> denominado <code>board-size</code> e o botão deve ter o <code>id</code> denominado <code>generate-board</code>;</li>
+      <li>O input só deve aceitar número maiores que zero. Essa restrição deve ser feita usando os atributos do elemento <code>input</code>;</li>
+      <li>O botão deve conter o texto "VQV";</li>
+      <li>O input deve estar posicionado entre a paleta de cores e o quadro de pixels;</li>
+      <li>O botão deve estar posicionado ao lado do input;</li>
+      <li>Se nenhum valor for colocado no input ao clicar no botão, mostre um <code>alert</code> com o texto: "Board inválido!";</li>
+      <li>O novo quadro deve ter todos os pixels preenchidos com a cor branca.</li>
+    </ul>
   </li>
-  <li>Altere atributos relacionados as fontes
-  <p>Modifique o estilo da sua tipografia alterando o tamanho de letra, a cor, o espaçamento entre as linhas e a font-family.</p>
+  <li>Limite o tamanho mínimo e máximo do board.
+    <ul>
+      <li>Caso o valor digitado no input <code>board-size</code> fuja do intervalo de 5 a 50, faça:</li>
+        <ul>
+          <li>Valor menor que 5, considerar 5 como padrão;</li>
+          <li>Valor maior que 50, considerar 50 como padrão.</li>
+        </ul>
+    </ul>
   </li>
-  <li>Posicione o seu artigo e a seção sobre aprendizados um ao lado do outro
-  <p>Adicione ao elemento posicionado no lado esquerdo a classe "lado-esquerdo" e ao elemento posicionado no lado direito a classe "lado-direito".</p>
+  <li>Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página.
+    <ul>
+      <li>A cor preta ainda precisa estar presente e deve ser a primeira na sua paleta de cores.</li>
+    </ul>
   </li>
 </ol>
 <br>
 
 <h2 id="en">:us: English</h2>
-<p>HTML & CSS project develop by me (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) in the end of the Unit 3 Module 1 of the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. I was approved with 100% of the mandatory and optional requirements met, and following all the Linter rules of best practices and code standardization.</p>
-<p>We had to develop a static web page using the knowledge acquired in the first three units of the course. The page needed to have a list of the lessons learned during this period, a list of future contents I am still going to learn, and a brief article describing my experience.</p>
-<p><a href="https://raphaelalmeidamartins.github.io/project-lessons-learned/" target="_blank">Click here</a> to check out the final version of the project on your browser.</p>
+<p>Project of HTML, CSS and JavaScript develop by me (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) in the end of the Unit 5 Module 1 of the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. I was approved with 100% of the mandatory and optional requirements met, and following all the Linter rules of best practices and code standardization.</p>
+<p>We had to develop a dynamic and interactive web page that the user can paint the pixels on a board using a palette of colors generated randomly. The user can also change the size of the board.</p>
+<p><a href="https://raphaelalmeidamartins.github.io/project-pixels-art/" target="_blank">Click here</a> to check out the final version of the project on your browser.</p>
 
 ![My grade of the project - Minha nota no projeto](./nota.png)
 
 ### Requirements
 <ol>
-  <li>Add a specific background color to your page
-  <p>The background color must be: rgb(253, 251, 251)</p>
-  </li>
-  <li>Add a header with a title
-  <p>The header needs to have "cabecalho" as the ID, and needs to be fixed on the top of the page with 0 in the top property. The title needs to be a h1 element, to be inside the header and to have "titulo" as the ID.</p>
-  </li>
-  <li>Add a photo to your page
-  <p>The photo needs to have "minha_foto" and the ID, and to be an img element.</p>
-  </li>
-  <li>Add a list of lessons learned to your page
-  <p>It needs to have 10 items, to be numbered and to have "licoes_aprendidas" as the ID.</p>
-  </li>
-  <li>Create another list with lessons you still are going to learn
-  <p>It needs to have 10 items, to not be numbered and to have "licoes_a_aprender" as the ID.</p>
-  </li>
-  <li>Add a footer to your page
-  <p>It needs to use the tag footer and to have "rodape" as the ID.</p>
-  </li>
-  <li>Add at least one external link to your page
-  <p>The link needs to open on a blank tab.</p>
-  </li>
-  <li>Create a small article about your learning
-  <p>The article should have more than 300 characters and less than 600. It also needs to have the tag article.</p>
-  </li>
-  <li>Add a small section containing a small passage about your learning
-  <p>It should have more than 100 characters and less than 300. It also needs to have the tag aside.</p>
-  </li>
-  <li>Apply HTML tag according to the semantics of every element in your page
-  <p>In other to improve the accessibility and ranking of your page on search engines, it needs to have the following tags: article, header, nav, section, aside e footer.</p>
-  </li>
-  <li>Test if the semantics of your page is approved by the site CodeSniffer</li>
+
 </ol>
 
 ### Bonus
-<ol start="12">
-  <li>Add a table to your page</li>
-  <li>Use the Box model
-  <p>Change the margin, the padding and the border of the elements to see how these properties can influence and improve the layout.</p>
-  </li>
-  <li>Change font properties
-  <p>Change font-family, font-style, font-size, color, and line-height.</p>
-  </li>
-  <li>Position your article and the small section side by side
-  <p>Add the class "lado-esquerdo" to the element on the left, and the class "lado-direito" to the element on the right.</p>
-  </li>
+<ol start="10">
+
 </ol>
