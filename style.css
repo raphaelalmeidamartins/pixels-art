@@ -1,0 +1,173 @@
+@font-face {
+  font-family: Karmatic Arcade;
+  src: url('./fonts/karmatic-arcade/ka1-webfont.woff2') format('woff2'),
+    url('./fonts/karmatic-arcade/ka1-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Light Pixel 7;
+  src: url('./fonts/light_pixel-7/light_pixel-7-webfont.woff2') format('woff2'),
+    url('./fonts/light_pixel-7/light_pixel-7-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Minecraftia;
+  src: url('./fonts/minecraftia/minecraftia-regular-webfont.woff2') format('woff2'),
+    url('./fonts/minecraftia/minecraftia-regular-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('images/background-optimized.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #e5fcc2;
+}
+
+header {
+  padding: 15px;
+  text-align: center;
+}
+
+#main-title {
+  font-family: Karmatic Arcade, monospace;
+  font-size: 60px;
+  font-weight: 100;
+  color: #594f4f;
+  background-color: #e5fcc2;
+  width: 500px;
+  margin: 40px auto 0;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#title {
+  font-family: Minecraftia, monospace;
+  font-weight: 100;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+  color: #594f4f;
+}
+
+#control-palette {
+  text-align: center;
+  margin: 0 auto 20px;
+  border: 10px inset #9de0ad;
+  padding: 10px;
+  background-color: #9de0ad;
+  width: 400px;
+}
+
+#color-palette {
+  list-style-type: none;
+  text-align: center;
+  margin: 10px auto 5px;
+}
+
+#switch-colors {
+  width: 200px;
+  background-color: purple;
+  color: white;
+  margin: 0 0 10px;
+}
+
+.color {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 5px;
+}
+
+
+.pixel {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-color: white;
+}
+
+.line {
+  list-style-type: none;
+  height: 40px;
+}
+
+#input-size-panel {
+  width: 400px;
+  margin: 30px auto;
+  font-family: monospace;
+  font-weight: 100;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+}
+
+#input-size-panel input {
+  width: 50px;
+  padding: 5px;
+  margin: 0 5px;
+  font-size: 15px;
+  font-family: monospace;
+  background-color: rgb(235, 232, 232);
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+#input-size-panel label {
+  margin-left: 20px;
+}
+
+button {
+  padding: 5px;
+  font-family: monospace;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+#pixel-board {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  background-color: white;
+}
+
+p {
+  font-family: monospace;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#size-error {
+  color: purple;
+  margin-top: 15px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+  background-color: #e5fcc2;
+  padding: 40px;
+}
+
+footer p {
+  color: #594f4f;
+}
+
+footer a {
+  text-decoration: none;
+}
