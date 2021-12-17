@@ -103,10 +103,10 @@
   </li>
   <li>Add a palette to your page containing four different colors.
     <ul>
-      <li>I needs to be an element with <code>color-palette</code> as the <code>id</code>, and each individual colors should have the <code>class</code> <code>color</code>;</li>
+      <li>It needs to be an element with <code>color-palette</code> as the <code>id</code>, and each individual colors should have the <code>class</code> <code>color</code>;</li>
       <li>The background color of each element in the palette should be the color that the elements represent. <strong>The only forbidden color is white;</strong></li>
       <li>Each element of the color palette should have a 1 pixel solid black border;</li>
-      <li>The color palette should be positioned below the title and the colors inside the palette should be positioned side by side;</li>
+      <li>The color palette should be positioned below the title, and the colors inside the palette should be positioned side by side;</li>
       <li>The palette must not contain repeated colors.</li>
     </ul>
   </li>
@@ -122,19 +122,19 @@
   <li>Each element of the board should have 40 pixels of width and height, and needs to have a 1 pixel solid black border.</li>
   <li>Define the black color as default. I should be already selected on loading the page.
     <ul>
-      <li>The element of the black color should initally have the<code>class</code> <code>selected</code>;</li>
+      <li>The element of the black color should initially have the <code>class</code> <code>selected</code>;</li>
       <li>Only the elements that have the <code>class</code> <code>color</code> should be able to get the <code>class</code> <code>selected</code>.</li>
     </ul>
   </li>
   <li>On clicking in of the colors of the palette, the user should be able to paint the "pixels" of the board with the selected color.
     <ul>
-      <li>The class <code>selected</code> should be added the the colors clicked, and at the same time removed from the previously selected color;</li>
+      <li>The class <code>selected</code> should be added to the colors clicked, and at the same time removed from the previously selected color;</li>
       <li>Only one of the colors in the palette can have the class <code>selected</code> per time;</li>
       <li>Only the elements that have the <code>class</code> <code>color</code> should be able to get the <code>class</code> <code>selected</code>.</li>
     </ul>
   </li>
   <li>On clicking in a "pixel" on the board, its background should be filled with the selected color.</li>
-  <li>Add a button that when clicked, clean the board and make all the "pixels" have white as background color.</li>
+  <li>Add a button that, when clicked, clean the board and make all the "pixels" have white as background color.</li>
 </ol>
 
 ### Bonus
