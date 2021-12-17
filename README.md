@@ -141,8 +141,8 @@
 <ol start="10">
   <li>The size of the board should be defined by the user.
     <ul>
-      <li>Add a input element to your page that allows the user to define the size of the board from 5 to 50. On clicking in the button, it should be generated a bord with <strong>N</strong> pixels fo width. and <strong>N</strong> pixels of height. <strong>N</strong> is the inputted number;</li>
-      <li>That means, if the inputted value is 7, on clicking the button, it should be generated a bord with 49 pixels (7 pixels of width largura x 7 pixels of height);</li>
+      <li>Add an input element to your page that allows the user to define the size of the board from 5 to 50. On clicking in the button, it should be generated a board with <strong>N</strong> pixels of width, and <strong>N</strong> pixels of height. <strong>N</strong> is the inputted number;</li>
+      <li>That means, if the inputted value is 7, on clicking the button, it should be generated a board with 49 pixels (7 pixels of width x 7 pixels of height);</li>
       <li>The input element should have the <code>id</code> <code>board-size</code> and the button should have the <code>id</code> <code>generate-board</code>;</li>
       <li>The input element should only accept numbers higher than zero. Use the attributes of the <code>input</code> element for this restriction;</li>
       <li>The button should have the text "VQV";</li>
@@ -163,7 +163,7 @@
   </li>
   <li>The colors of the palette should be generated randomly on loading the page.
     <ul>
-      <li>The black color still need to be present and to be the first color of the palette</li>
+      <li>The black color still needs to be present and to be the first color of the palette</li>
     </ul>
   </li>
 </ol>
