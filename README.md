@@ -4,7 +4,7 @@
 
 # Pixels Art
 <h2>:brazil: Português</h2>
-<p id="pt">Projeto de HTML, CSS e JavaScript desenvolvido por mim (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) ao final do Bloco 5 do Módulo 1 do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. Obtive aprovação com 100% dos requisitos obrigatórios e opcionais atingidos, e seguindo as todas as regras de padronização do código e boas práticas do Linter.</p>
+<p id="pt">Projeto de HTML, CSS e JavaScript desenvolvido por mim (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) ao final do Bloco 5 do Módulo 1 do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. Obtive aprovação com 100% dos requisitos obrigatórios e opcionais atingidos.</p>
 <p>O projeto consistiu no desenvolvimento de uma página web dinâmica e interativa em que o usuário pode pintar os pixels em um quadro utilizando uma paleta de cores gerada de forma aleatória, e também alterar o tamanho do quadro.</p>
 <p><a href="https://raphaelalmeidamartins.github.io/project-pixels-art/" target="_blank">Clique aqui</a> para conferir o resultado do projeto no navegador.</p>
 
@@ -87,8 +87,8 @@
 <br>
 
 <h2 id="en">:us: English</h2>
-<p>Project of HTML, CSS and JavaScript develop by me (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) in the end of the Unit 5 Module 1 of the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. I was approved with 100% of the mandatory and optional requirements met, and following all the Linter rules of best practices and code standardization.</p>
-<p>We had to develop a dynamic and interactive web page that the user can paint the pixels on a board using a palette of colors generated randomly. The user can also change the size of the board.</p>
+<p>Project of HTML, CSS, and JavaScript developed by me (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) at the end of the Unit 5 Module 1 of the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. I was approved with 100% of the mandatory and optional requirements met.</p>
+<p>We had to develop a dynamic and interactive web page where the user could paint the pixels on a board using a palette of colors generated randomly. The user can also change the size of the board.</p>
 <p><a href="https://raphaelalmeidamartins.github.io/project-pixels-art/" target="_blank">Click here</a> to check out the final version of the project on your browser.</p>
 
 ![My grade of the project - Minha nota no projeto](./nota.png)
@@ -103,9 +103,9 @@
   </li>
   <li>Add a palette to your page containing four different colors.
     <ul>
-      <li>It needs to be an element with <code>color-palette</code> as the <code>id</code>, and each individual colors should have the <code>class</code> <code>color</code>;</li>
+      <li>It needs to be an element with <code>color-palette</code> as the <code>id</code>, and each color should have the <code>class</code> <code>color</code>;</li>
       <li>The background color of each element in the palette should be the color that the elements represent. <strong>The only forbidden color is white;</strong></li>
-      <li>Each element of the color palette should have a 1 pixel solid black border;</li>
+      <li>Each element of the color palette should have a 1-pixel solid black border;</li>
       <li>The color palette should be positioned below the title, and the colors inside the palette should be positioned side by side;</li>
       <li>The palette must not contain repeated colors.</li>
     </ul>
@@ -114,34 +114,34 @@
   <li>Add to your page a pixels board with 25 pixels.
     <ul>
       <li>It should have 5 elements of width and 5 elements of height;</li>
-      <li>The board needs to have <code>pixel-board</code> as its <code>id</code>, and each individual "pixel"inside the board should have the <code>class</code> <code>pixel</code>;</li>
+      <li>The board needs to have <code>pixel-board</code> as its <code>id</code>, and each individual "pixel" inside the board should have the <code>class</code> <code>pixel</code>;</li>
       <li>The initial color of the "pixels" inside the board on loading the page needs to be white;</li>
       <li>The board should be positioned below the color palette.</li>
     </ul>
   </li>
-  <li>Each element of the board should have 40 pixels of width and height, and needs to have a 1 pixel solid black border.</li>
+  <li>Each element of the board should have 40 pixels of width and height and needs to have a 1-pixel solid black border.</li>
   <li>Define the black color as default. I should be already selected on loading the page.
     <ul>
       <li>The element of the black color should initially have the <code>class</code> <code>selected</code>;</li>
       <li>Only the elements that have the <code>class</code> <code>color</code> should be able to get the <code>class</code> <code>selected</code>.</li>
     </ul>
   </li>
-  <li>On clicking in of the colors of the palette, the user should be able to paint the "pixels" of the board with the selected color.
+  <li>On clicking on the colors of the palette, the user should be able to paint the "pixels" of the board with the selected color.
     <ul>
       <li>The class <code>selected</code> should be added to the colors clicked, and at the same time removed from the previously selected color;</li>
       <li>Only one of the colors in the palette can have the class <code>selected</code> per time;</li>
       <li>Only the elements that have the <code>class</code> <code>color</code> should be able to get the <code>class</code> <code>selected</code>.</li>
     </ul>
   </li>
-  <li>On clicking in a "pixel" on the board, its background should be filled with the selected color.</li>
-  <li>Add a button that, when clicked, clean the board and make all the "pixels" have white as background color.</li>
+  <li>On clicking on a "pixel" on the board, its background should be filled with the selected color.</li>
+  <li>Add a button that, when clicked, clean the board and make all the "pixels" have white as the background color.</li>
 </ol>
 
 ### Bonus
 <ol start="10">
   <li>The size of the board should be defined by the user.
     <ul>
-      <li>Add an input element to your page that allows the user to define the size of the board from 5 to 50. On clicking in the button, it should be generated a board with <strong>N</strong> pixels of width, and <strong>N</strong> pixels of height. <strong>N</strong> is the inputted number;</li>
+      <li>Add an input element to your page that allows the user to define the size of the board from 5 to 50. On clicking on the button, it should be generated a board with <strong>N</strong> pixels of width and <strong>N</strong> pixels of height. <strong>N</strong> is the inputted number;</li>
       <li>That means, if the inputted value is 7, on clicking the button, it should be generated a board with 49 pixels (7 pixels of width x 7 pixels of height);</li>
       <li>The input element should have the <code>id</code> <code>board-size</code> and the button should have the <code>id</code> <code>generate-board</code>;</li>
       <li>The input element should only accept numbers higher than zero. Use the attributes of the <code>input</code> element for this restriction;</li>
@@ -149,12 +149,12 @@
       <li>The input element should be positioned between the color palette and the pixels board;</li>
       <li>The button should be positioned on the side of the input element;</li>
       <li>If no value is inserted on the input element when the button is clicked, display an <code>alert</code> message: "Board inválido!" (<em>"Invalid Board!"</em>);</li>
-      <li>The new board should have all "pixels" filled with the white color.</li>
+      <li>The new board should have all "pixels" filled with white color.</li>
     </ul>
   </li>
   <li>Restrict the min and max size of the board.
     <ul>
-      <li>If the value of the input <code>board-size</code> it out of the rang 5 to 50:</li>
+      <li>If the value of the input <code>board-size</code> is out of the range of 5 to 50:</li>
         <ul>
           <li>Consider 5 as the default value if the inputted number is lower than 5;</li>
           <li>Consider 50 as the default value if the inputted number is higher than 50.</li>
