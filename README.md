@@ -126,14 +126,14 @@
       <li>Only the elements that have the <code>class</code> <code>color</code> should be able to get the <code>class</code> <code>selected</code>.</li>
     </ul>
   </li>
-  <li>On clicking on the colors of the palette, the user should be able to paint the "pixels" of the board with the selected color.
+  <li>On clicking the colors of the palette, the user should be able to paint the "pixels" of the board with the selected color.
     <ul>
       <li>The class <code>selected</code> should be added to the colors clicked, and at the same time removed from the previously selected color;</li>
       <li>Only one of the colors in the palette can have the class <code>selected</code> per time;</li>
       <li>Only the elements that have the <code>class</code> <code>color</code> should be able to get the <code>class</code> <code>selected</code>.</li>
     </ul>
   </li>
-  <li>On clicking on a "pixel" on the board, its background should be filled with the selected color.</li>
+  <li>On clicking a "pixel" on the board, its background should be filled with the selected color.</li>
   <li>Add a button that, when clicked, clean the board and make all the "pixels" have white as the background color.</li>
 </ol>
 
@@ -141,7 +141,7 @@
 <ol start="10">
   <li>The size of the board should be defined by the user.
     <ul>
-      <li>Add an input element to your page that allows the user to define the size of the board from 5 to 50. On clicking on the button, it should be generated a board with <strong>N</strong> pixels of width and <strong>N</strong> pixels of height. <strong>N</strong> is the inputted number;</li>
+      <li>Add an input element to your page that allows the user to define the size of the board from 5 to 50. On clicking the button, it should be generated a board with <strong>N</strong> pixels of width and <strong>N</strong> pixels of height. <strong>N</strong> is the inputted number;</li>
       <li>That means, if the inputted value is 7, on clicking the button, it should be generated a board with 49 pixels (7 pixels of width x 7 pixels of height);</li>
       <li>The input element should have the <code>id</code> <code>board-size</code> and the button should have the <code>id</code> <code>generate-board</code>;</li>
       <li>The input element should only accept numbers higher than zero. Use the attributes of the <code>input</code> element for this restriction;</li>
