@@ -14,6 +14,6 @@
 <h2 id="en">:us: English</h2>
 <p>Project of HTML, CSS, and JavaScript developed by me (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) at the end of the Unit 5 Module 1 of the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. I was approved with 100% of the mandatory and optional requirements met.</p>
 <p>We had to develop a dynamic and interactive web page where the user could paint the pixels on a board using a palette of colors generated randomly. The user can also change the size of the board.</p>
-<p><a href="https://raphaelalmeidamartins.github.io/project-pixels-art/" target="_blank">Click here</a> to check out the final version of the project on your browser.</p>
+<p><a href="https://raphaelalmeidamartins.github.io/pixels-art/" target="_blank">Click here</a> to check out the final version of the project on your browser.</p>
 
 ![My grade of the project - Minha nota no projeto](./nota.png)
