@@ -6,7 +6,7 @@
 <h2>:brazil: Português</h2>
 <p id="pt">Projeto de HTML, CSS e JavaScript desenvolvido por mim (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) ao final do Bloco 5 do Módulo 1 do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. Obtive aprovação com 100% dos requisitos obrigatórios e opcionais atingidos.</p>
 <p>O projeto consistiu no desenvolvimento de uma página web dinâmica e interativa em que o usuário pode pintar os pixels em um quadro utilizando uma paleta de cores gerada de forma aleatória, e também alterar o tamanho do quadro.</p>
-<p><a href="https://raphaelalmeidamartins.github.io/project-pixels-art/" target="_blank">Clique aqui</a> para conferir o resultado do projeto no navegador.</p>
+<p><a href="https://raphaelalmeidamartins.github.io/pixels-art/" target="_blank">Clique aqui</a> para conferir o resultado do projeto no navegador.</p>
 
 ![Minha nota no projeto - My grade of the project](./nota.png)
 <br>
